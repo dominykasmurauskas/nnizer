@@ -3,6 +3,16 @@ easy_admin:
   user:
     name_property_path: 'name'
     display_avatar: true
+  design:
+    menu:
+      - { entity: User, default: true }
+      - { entity: Contractor }
+      - { entity: CoverPhoto }
+      - { entity: ProfilePhoto }
+      - { entity: ServiceType }
+      - { entity: ContractorSettings }
+      - { entity: Reservation }
+      - { entity: Review }
 
   list:
     title: 'List of %%entity_label%%'
